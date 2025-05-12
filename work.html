@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Portfolio</title>
+    <!--Font Google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!--Link CSS-->
+    <link rel="stylesheet" href="main.css">
+    <!--Link Box Icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <div class="container">
+    <div class="col-left">
+      <img src="img/anh-cv-02.jpg" alt="avatar" />
+      <h3>Adam Alex</h3>
+      <h6>FullStack Developer</h6>
+      <div class="list-icon">
+        <a href="#"><i class='bx bxl-facebook' style="color: #4267B2;"></i></a>
+        <a href="#"><i class='bx bxl-linkedin' style="color: #0a66c2;"></i></a>
+        <a href="#"><i class='bx bxl-twitter' style="color: #1DA1F2;"></i></a>
+        <a href="#"><i class='bx bxl-github' style="color: #000;"></i></a>
+      </div>
+      <div class="form-resume">
+        <div class="box-lh">
+          <i class='bx bx-mobile'></i>
+          <div class="right-box">
+            <h5>Phone</h5>
+            <p>+84123456789</p>
+          </div>
+        </div>
+        <div class="line"></div>
+        <div class="box-lh">
+          <i class='bx bx-envelope'></i>
+          <div class="right-box">
+            <h5>Email</h5>
+            <p>adamalex@gmail.com</p>
+          </div>
+        </div>
+        <div class="line"></div>
+        <div class="box-lh">
+          <i class='bx bx-map'></i>
+          <div class="right-box">
+            <h5>Location</h5>
+            <p>Nha Trang - Khánh Hòa</p>
+          </div>
+        </div>
+        <div class="line"></div>
+        <div class="download">
+          <button>
+            <i class='bx bx-download'></i>
+            <p>Download Resume</p>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="col-right">
+      <div id="menuWrapper">
+        <div class="navbar-menu" id="menuContainer">
+            <a href="home.html"><div class="box-menu" id="home"><i class='bx bx-home'></i><p>Home</p></div></a>
+            <a href="Resume.html"><div class="box-menu" id="resume"><i class='bx bx-receipt'></i><p>Resume</p></div></a>
+            <a href="#"><div class="box-menu" id="work"><i class='bx bx-briefcase'></i><p>Work</p></div></a>
+            <a href="Contact.html"><div class="box-menu" id="contact"><i class='bx bxs-contact'></i><p>Contact</p></div></a>
+        </div>
+    </div>
+      <div class="content-work">
+        <div class="title-content">
+          <h1 style="margin-left: 20px;">Portfolio</h1>
+          <span></span>
+        </div>
+        <div class="portfolio-filter">
+          <ul>
+            <li class="center">All</li>
+            <li>App Development</li>
+            <li>Web Development</li>
+            <li>Design</li>
+            <li>Mentorship</li>
+          </ul>
+        </div>
+        <div class="portfolio-items">
+          <div class="flex-left" style="flex: 0;">
+            <div class="portfolio-item">
+              <img src="img/app.png" alt="Smart Bank App"/>
+              <p class="category">App Development</p>
+              <h3 class="title">Smart Bank App</h3>
+            </div>
+            <div class="portfolio-item" style="background-color: #FFF4E5;">
+              <img src="img/ui_ux.png" alt="Rental"/>
+              <p class="category">UI/UX</p>
+              <h3 class="title">Rental</h3>
+            </div>
+            <div class="portfolio-item" style="background-color: #FFEED9;">
+              <img src="img/dev.png" alt="Tech Mentor"/>
+              <p class="category">Web Development</p>
+              <h3 class="title">Portfolio Website</h3>
+            </div>
+          </div>
+          <div class="flex-right">
+            <div class="portfolio-item" style="background-color: #FFEED9; height: 200px;">
+              <img src="img/blog.png" alt="NEXT.js" style="height: 150px;"/>
+              <p class="category">Blog</p>
+              <h3 class="title">NEXT.js</h3>
+            </div>
+            <div class="portfolio-item" style="height: 200px;">
+              <img src="img/mentor.png" alt="Portfolio Website" style="height: 150px;"/>
+              <p class="category">Mentorship</p>
+              <h3 class="title">Tech Mentor</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Javascript-->
+  <script src="main.js"></script>
+</body>
+</html>
